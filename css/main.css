@@ -197,6 +197,7 @@ h1, h2, h3, p, a, span, i, b, strong, li {
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   transition: transform 0.3s, box-shadow 0.3s;
+  border-radius: 15px;
 }
 
 .courses__name {
