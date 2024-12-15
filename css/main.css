@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+body {
+  font-size: 0;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+h1, h2, h3, p, a, span, i, b, strong, li {
+  font-size: 14px; 
+  line-height: 17px; 
+  font-weight: normal;
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.nav {
+  padding: 30px 0;
+  text-align: center;
+}
+
+.nav__item {
+  display: inline-block;
+  column-gap: 56px;
+  flex-wrap: wrap; 
+  margin-right: 56px;
+}
+
+.nav__item:last-child {
+  margin-right: 0;
+}
+
+.nav__link {
+  color: rgb(28, 28, 28);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 100%; 
+}
+
+.header {
+  padding-top: 87px;
+  display:flex;
+  flex-wrap: wrap;
+}
+
+.border {
+  position: relative; 
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 58px;
+  margin-bottom: 40px;
+  margin-right: 60px;
+  
+}
+
+.header__block {
+  display: inline-block;
+  width: 50%;
+  padding-left: 10px;
+  padding-right: 10px;
+  vertical-align: middle;
+  box-sizing: border-box;
+  padding-top: 100px;
+}
+
+.header__title {
+  color: rgb(28, 28, 28);
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 58px;
+  margin-bottom: 40px;
+  margin-right: 60px;
+}
+
+.header__text {
+  color: rgb(28, 28, 28);
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-right: 60px;
+}
+
+.header__img {
+  width: 100%;
+  margin: auto;
+  object-fit: cover;
+  
+}
+
+.companies {
+  background: rgb(245, 248, 254);
+  margin-top: 88px;
+}
+
+.companies__block {
+  text-align: center;
+
+}
+
+.companies__title {
+  color: rgb(28, 28, 28);
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 44px;
+  padding-top: 138px;
+  padding-bottom: 30px;
+}
+
+.companies__text {
+  color: rgb(159, 159, 159);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  margin-bottom: 88px;
+}
+
+.img__comp {
+  width: 168px;
+  height: auto;
+  padding: 20px;
+}
+
+
+.companies__list {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0;
+  column-gap: 60px;
+  row-gap: 100px;
+  padding-bottom: 130px;
+}
+
+.about__block {
+  display: inline-block;
+  width: 50%;
+  padding-left: 10px;
+  padding-right: 10px;
+  box-sizing: border-box;
+  vertical-align: middle;
+  padding-top: 100px;
+  padding-bottom: 220px;
+}
+
+.about__img {
+  width: 100%;
+  margin: auto;
+  padding-right: 50px;
+  object-fit: cover;
+}
+
+.about__title {
+  color: rgb(28, 28, 28);
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 50px;
+  margin-bottom: 40px;
+  margin-left: 60px;
+}
+
+.about__text {
+  color: rgb(28, 28, 28);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  margin-left: 60px;
+}
+
+.courses__block {
+  width: auto;
+}
+
+.courses__title {
+  color: rgb(28, 28, 28);
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 44px;
+  margin-bottom: 120px;
+  text-align: center;
+}
+
+.courses__list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0;
+  column-gap: 30px;
+}
+
+.courses__item {
+  width: 320px;
+  margin-bottom: 105px;
+  padding: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.courses__name {
+  color: rgb(28, 28, 28);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  margin-top: 10px;
+  margin-bottom: 24px;
+}
+
+.courses__text {
+color: rgb(28, 28, 28);
+font-size: 18px;
+font-weight: 400;
+line-height: 32px;
+}
+
+.courses__img {
+  width: 42px;
+  height: 42px;
+}
+
+.courses__img__dock {
+  width: 25px;
+  height: auto;
+}
+
+.join {
+  background-color: rgb(27, 26, 255);
+  background-image: url(../image/Mask\ group.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.join__block {
+  text-align: center;
+}
+
+.join__subtitle {
+  color: rgb(255, 255, 255);
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  text-align: center;
+}
+
+.footer {
+  background: rgb(28, 28, 28);
+}
+
+.footer__block {
+  text-align: center;
+}
+
+.footer__img {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  width: 140px;
+  height: auto;
+}
